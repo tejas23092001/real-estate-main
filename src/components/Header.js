@@ -12,6 +12,7 @@ const Header = () => {
         <Link to='/'>
           <img src={Logo} alt='' />
         </Link>
+
         <div className='flex items-center gap-6'>
           <Link className='hover:text-violet-900 transition' to='/'>
             Log in
@@ -23,6 +24,7 @@ const Header = () => {
             Sign up
           </Link>
         </div>
+        
       </div>
     </header>
   );
